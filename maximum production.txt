@@ -1,0 +1,22 @@
+#include<iostream
+using namespace std;
+
+int main(){
+int t; //number of test case
+cin>>t;
+while(t--)      //executing program while no. of test case not equal to 0
+{
+int d; // no. of day y unit work
+int x;
+int y;   // unit of work done for d days
+int z;    //unit of work done for 7-d days
+int p=7*x;     //work done in 7 days 
+int q=d*y+(7-d)*z;
+if(p>q)      //checking maximum work 
+cout<<p<<endl;
+else
+cout<<q<<endl;
+t--;
+}
+return 0;
+}
